@@ -1,0 +1,40 @@
+yarn add primereact.Body__container {
+  border: 2px solid gray;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.Hero__container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hero__container-row {
+  width: 100%;
+  text-align: left;
+  vertical-align: middle;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 30% 65%;
+  margin-bottom: 10px;
+}
+
+.Variable__tittle {
+  width: 100%;
+  padding: 0 10px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.variable__container {
+  border: 2px solid gray;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+}
